@@ -1,0 +1,15 @@
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\bin\Debug\netstandard2.0\CoffeeApp.deps.json
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\bin\Debug\netstandard2.0\CoffeeApp.dll
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\bin\Debug\netstandard2.0\ref\CoffeeApp.dll
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\bin\Debug\netstandard2.0\CoffeeApp.pdb
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.csprojAssemblyReference.cache
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.AssemblyInfoInputs.cache
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.AssemblyInfo.cs
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.csproj.CoreCompileInputs.cache
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.dll
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\ref\CoffeeApp.dll
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.pdb
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeDrinksDetailPage.xaml.g.cs

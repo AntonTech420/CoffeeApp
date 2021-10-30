@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CoffeeApp.MainPage.xaml", "MainPage.xaml", typeof(global::CoffeeApp.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CoffeeApp.CoffeeDrinksDetailPage.xaml", "CoffeeDrinksDetailPage.xaml", typeof(global::CoffeeApp.CoffeeDrinksDetailPage))]
 
 namespace CoffeeApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("CoffeeDrinksDetailPage.xaml")]
+    public partial class CoffeeDrinksDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button coffeeButton;
+        private global::Xamarin.Forms.Button backButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            coffeeButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "coffeeButton");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CoffeeDrinksDetailPage));
+            backButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "backButton");
         }
     }
 }
