@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "afjXjI2hskY2isp4arDChD9oTOcxH3R5z5HT/8FLMw6q/pR2Zon8SXWvBeZNzxEQqqhapGOdjAueou3SbMahOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anton\\Downloads\\Techtorium\\PhoneAppCreation\\CoffeeApp\\CoffeeApp\\CoffeeApp\\CoffeeApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anton\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
