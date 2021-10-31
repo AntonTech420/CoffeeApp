@@ -12,7 +12,7 @@
                 <Button x:Name="coffeeButton" Text="Espresso" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="coffeeButton_Clicked"/>
             </Frame>
             <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
-                <Button Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
+                <Button Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="HotDrinksButton_Clicked"/>
             </Frame>
             <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
                 <Button Text="Cold Drinks" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
