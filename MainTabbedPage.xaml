@@ -11,7 +11,7 @@
             <Frame BackgroundColor="#6F491E" Padding="10" CornerRadius="0">
                 <Button x:Name="coffeeButton" Text="Espresso" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="coffeeButton_Clicked"/>
             </Frame>
-            <Frame BackgroundColor="SaddleBrown" Padding="10" CornerRadius="0">
+            <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
                 <Button Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
             </Frame>
             <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
@@ -25,8 +25,14 @@
     </ContentPage>
     <ContentPage Title="About">
         <StackLayout>
-            <Label Text="this is about page" />
             <Image Source="cafe.jfif" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="Jules cafe" FontSize="30" VerticalOptions="Center" Padding="10" />
+            <Label Text=" 4A kent street, Newmarket , Auckland, 1023 " FontSize="20" VerticalOptions="Center" Margin="10,0,0,0" />
+            <Label Text="+64  9 444 5555 " FontSize="20" VerticalOptions="Center" Margin="10,0,0,0" />
+            <Label Text="info@julescafe.co.nz " FontSize="20" VerticalOptions="Center" Margin="10,0,0,0" />
+            <Image Source="facebook.png" WidthRequest="64" HeightRequest="64" Margin="-320,90,0,0"/>
+            <Image Source="insta.jfif" WidthRequest="64" HeightRequest="64" Margin="-320,0,0,0"/>
+
 
         </StackLayout>
     </ContentPage>
