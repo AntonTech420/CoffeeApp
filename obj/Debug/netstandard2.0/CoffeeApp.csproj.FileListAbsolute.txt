@@ -13,3 +13,4 @@ C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeA
 C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\ref\CoffeeApp.dll
 C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeApp.pdb
 C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeDrinksDetailPage.xaml.g.cs
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\MainTabbedPage.xaml.g.cs

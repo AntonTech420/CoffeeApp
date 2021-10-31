@@ -8,21 +8,35 @@
             <Frame BackgroundColor="Black" Margin="0" Padding="90" VerticalOptions="CenterAndExpand">
                 <Image Source="jules.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
             </Frame>
-            <Frame BackgroundColor="#6F491E" Padding="24" CornerRadius="0">
+            <Frame BackgroundColor="#6F491E" Padding="10" CornerRadius="0">
                 <Button x:Name="coffeeButton" Text="Espresso" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="coffeeButton_Clicked"/>
             </Frame>
-            <Frame BackgroundColor="SaddleBrown" Padding="24" CornerRadius="0">
+            <Frame BackgroundColor="SaddleBrown" Padding="10" CornerRadius="0">
                 <Button Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
             </Frame>
-            <Frame BackgroundColor="#7C5222" Padding="24" CornerRadius="0">
-                <Button Text="Cold" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
+            <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
+                <Button Text="Cold Drinks" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
             </Frame>
-            <Frame BackgroundColor="#7C5222" Padding="24" CornerRadius="0">
+            <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
                 <Button Text="Quick Bites" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
             </Frame>
 
         </StackLayout>
     </ContentPage>
-    <ContentPage Title="About" />
-  <ContentPage Title="Map" />
+    <ContentPage Title="About">
+        <StackLayout>
+            <Label Text="this is about page" />
+            <Image Source="cafe.jfif" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Map">
+        <StackLayout>
+            <Label Text="We are located here" />
+            <WebView x:Name="mapWebView" Source="https://www.google.co.nz/maps/place/4A+Kent+Street,+Newmarket,+Auckland+1023/@-36.8679537,174.776795,113m/data=!3m1!1e3!4m5!3m4!1s0x6d0d4876eda9997b:0x6be9754cf6f407fe!8m2!3d-36.8679681!4d174.7767336" VerticalOptions="FillAndExpand"/>
+
+        </StackLayout>
+    </ContentPage>
+
 </TabbedPage>

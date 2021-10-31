@@ -16,5 +16,10 @@ namespace CoffeeApp
         {
             InitializeComponent();
         }
+
+        private async void coffeeButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CoffeeDrinksDetailPage());
+        }
     }
 }

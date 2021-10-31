@@ -12,16 +12,16 @@
         <Frame BackgroundColor="Black" Margin="0" Padding="90" VerticalOptions="CenterAndExpand">
             <Image Source="jules.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
         </Frame>
-        <Frame BackgroundColor="#6F491E" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="#6F491E" Padding="10" CornerRadius="0">
             <Button x:Name="coffeeButton" Text="Espresso" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="coffeeButton_Clicked"/>
         </Frame>
-        <Frame BackgroundColor="SaddleBrown" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="SaddleBrown" Padding="10" CornerRadius="0">
             <Button Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
         </Frame>
-        <Frame BackgroundColor="#7C5222" Padding="24" CornerRadius="0">
-            <Button Text="Cold" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
+        <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
+            <Button Text="Cold Drinks" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
         </Frame>
-        <Frame BackgroundColor="#7C5222" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
             <Button Text="Quick Bites" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
         </Frame>
         
