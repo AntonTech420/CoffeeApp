@@ -21,5 +21,19 @@ namespace CoffeeApp
         {
             await Navigation.PushAsync(new CoffeeDrinksDetailPage());
         }
+
+        private async void HotDrinksButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HotDrinks());
+        }
+
+        private async void ColdDrinksButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ColdDrinks());
+        }
+        private async void BitesButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Bites());
+        }
     }
 }

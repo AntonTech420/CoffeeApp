@@ -1,24 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CoffeeApp.HotDrinks"
-             Title="Hot Drinks">
+             x:Class="CoffeeApp.ColdDrinks"
+             Title="Cold Drinks">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hot Drinks" BackgroundColor="Black" TextColor="White" FontSize="30" VerticalOptions="Center" Padding="50" />
+            <Label Text="Cold Drinks" BackgroundColor="Black" TextColor="White" FontSize="30" VerticalOptions="Center" Padding="50" />
             <Frame OutlineColor="Black">
-                <Label Text="Big hoty Coffee      $4.50" TextColor="Black" />
+                <Label Text="Antartica Water      $10000" TextColor="Black" />
             </Frame>
             <Frame OutlineColor="Black">
-                <Label Text="Large Latte Coffee      $4.50" TextColor="Black" />
+                <Label Text="Troy Special Juice      $69.69" TextColor="Black" />
             </Frame>
             <Frame OutlineColor="Black">
-                <Label Text="Scorching milk      $4.50" TextColor="Black" />
+                <Label Text="Campbell Creamy Consistent Carmel Chai Choclate     $420.69" TextColor="Black" />
             </Frame>
             <Frame OutlineColor="Black">
-                <Label Text="Burnt Troy Juice      $69.69" TextColor="Black"/>
+                <Label Text="North pole water      $999.50" TextColor="Black"/>
             </Frame>
-            <Label Text="  " TextColor="Black"/>
             <Label Text="  " TextColor="Black"/>
             <Label Text="  " TextColor="Black"/>
             <Label Text="  " TextColor="Black"/>
@@ -29,7 +28,9 @@
             <Label Text="  " TextColor="Black"/>
             <Label Text="  " TextColor="Black"/>
 
-            <Button x:Name="backButton" Text="Back" Clicked="backButton_Clicked" />
+
+
+            <Button x:Name="backButton" Text="Back" Clicked="backButton_Clicked" VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeeApp.Bites"
+             Title="Bites">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="LightGray" Padding="0" Margin="0,6,0,0" CornerRadius="0">
+                <FlexLayout>
+                    <Image Source="food2.png" HeightRequest="150" HorizontalOptions="Start"></Image>
+                    <StackLayout>
+                        <Label Text="Bagel" TextColor="Black" FontSize="20" Padding="10, 5"/>
+                        <Label Text="Freshly Baked Every Morning" TextColor="Black" FontSize="20" Padding="10, 5"/>
+
+                    </StackLayout>
+                    <Label Text="$1.50" FontSize="18" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Padding="-260, 120, 0, 0" TextColor="Black"/>
+                </FlexLayout>
+            </Frame>
+            <Frame BackgroundColor="LightGray" Padding="-20" Margin="0,5,0,0" CornerRadius="0">
+                <FlexLayout>
+                    <Image Source="food.png" HeightRequest="190" WidthRequest="250" HorizontalOptions="Start"></Image>
+                    <StackLayout>
+                        <Label Text="Eggs Beni" TextColor="Black" FontSize="20" Padding="10, 20"/>
+                        <Label Text="Poached eggs and bacon, you know the standard with hollindasise sauce" TextColor="Black" FontSize="20" Padding="10, 5"/>
+
+                    </StackLayout>
+                    <Label Text="$12.50" FontSize="18" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Padding="-350, 145, 0, 0" TextColor="Black"/>
+                </FlexLayout>
+            </Frame>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Label Text="  " TextColor="Black"/>
+            <Button x:Name="backButton" Text="Back" Clicked="backButton_Clicked" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -15,3 +15,5 @@ C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeA
 C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\CoffeeDrinksDetailPage.xaml.g.cs
 C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\MainTabbedPage.xaml.g.cs
 C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\HotDrinks.xaml.g.cs
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\Bites.xaml.g.cs
+C:\Users\Anton\Downloads\Techtorium\PhoneAppCreation\CoffeeApp\CoffeeApp\CoffeeApp\obj\Debug\netstandard2.0\ColdDrinks.xaml.g.cs

@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CoffeeApp.MainTabbedPage">
+             x:Class="CoffeeApp.MainTabbedPage"
+            NavigationPage.HasNavigationBar="False">
+    
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Menu" BackgroundColor="Black">
         <StackLayout>
@@ -12,13 +14,13 @@
                 <Button x:Name="coffeeButton" Text="Espresso" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="coffeeButton_Clicked"/>
             </Frame>
             <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
-                <Button Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="HotDrinksButton_Clicked"/>
+                <Button x:Name="HotDrinks" Text="Hot Drinks"  TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="HotDrinksButton_Clicked"/>
             </Frame>
             <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
-                <Button Text="Cold Drinks" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
+                <Button x:Name="ColdDrinks" Text="Cold Drinks" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="ColdDrinksButton_Clicked"/>
             </Frame>
             <Frame BackgroundColor="#7C5222" Padding="10" CornerRadius="0">
-                <Button Text="Quick Bites" TextColor="White" FontSize="26" BackgroundColor="Transparent"/>
+                <Button x:Name="Bites" Text="Quick Bites" TextColor="White" FontSize="26" BackgroundColor="Transparent" Clicked="BitesButton_Clicked"/>
             </Frame>
 
         </StackLayout>
@@ -30,9 +32,11 @@
             <Label Text=" 4A kent street, Newmarket , Auckland, 1023 " FontSize="20" VerticalOptions="Center" Margin="10,0,0,0" />
             <Label Text="+64  9 444 5555 " FontSize="20" VerticalOptions="Center" Margin="10,0,0,0" />
             <Label Text="info@julescafe.co.nz " FontSize="20" VerticalOptions="Center" Margin="10,0,0,0" />
-            <Image Source="facebook.png" WidthRequest="64" HeightRequest="64" Margin="-320,90,0,0"/>
-            <Image Source="insta.jfif" WidthRequest="64" HeightRequest="64" Margin="-320,0,0,0"/>
-
+            <FlexLayout Padding="25 , 10">
+                <Image Source="facebook.png" WidthRequest="64" HeightRequest="64" Margin="0,200,0,0"/>
+                <Label Padding="10"/>
+                <Image Source="insta.jfif" WidthRequest="64" HeightRequest="64" Margin="0,200,0,0"/>
+            </FlexLayout>
 
         </StackLayout>
     </ContentPage>
